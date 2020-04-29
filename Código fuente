@@ -1,8 +1,12 @@
 #include <stdio.h>
 #include <locale.h>
-struct      registroAlumnos  {
 
+
+struct  registroAlumnos  {
 int  numCuenta[8];
 char nomAlumno[30];
 int  Calificaciones[5];
 }
+
+
+struct RegAlumno 
